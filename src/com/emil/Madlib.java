@@ -9,7 +9,7 @@ public class Madlib {
         Scanner keyboardInput = new Scanner(System.in);
 
         System.out.print("Enter a bird name: ");
-        String color = keyboardInput.nextLine();
+        int color = keyboardInput.nextInt();
         System.out.print("Enter a plural noun: ");
         String pluralNoun = keyboardInput.nextLine();
         System.out.print("Enter a celebrity: ");
