@@ -15,7 +15,7 @@ public class Madlib {
         System.out.print("Enter a celebrity: ");
         String celebrity = keyboardInput.nextLine();
 
-        System.out.println("Roses are " + color +  "\n"
+        System.out.println("Margarites are " + color +  "\n"
                 + pluralNoun + " are blue \n"
                 + "I love " + celebrity);
     }
