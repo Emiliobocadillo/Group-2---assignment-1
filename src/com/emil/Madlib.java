@@ -9,14 +9,12 @@ public class Madlib {
         Scanner keyboardInput = new Scanner(System.in);
 
         System.out.print("Enter a bird name: ");
-        int color = keyboardInput.nextInt();
+        String color = keyboardInput.nextLine();
         System.out.print("Enter a plural noun: ");
         String pluralNoun = keyboardInput.nextLine();
         System.out.print("Enter a celebrity: ");
         String celebrity = keyboardInput.nextLine();
 
-        System.out.println("tulips are " + color +  "\n"
-                + pluralNoun + " are blue \n"
-                + "I love " + celebrity);
+        System.out.println("tulips are " + color + "\n" + pluralNoun + " are blue \n" + "I love " + celebrity);
     }
 }
