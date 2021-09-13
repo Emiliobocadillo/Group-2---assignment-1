@@ -11,7 +11,7 @@ public class Main {
 
         characterName = "Emil";
 
-        System.out.println("the name " + characterName + " but didn't like being" + characterAge +".");
+        System.out.println("the name " + characterName + " but didn't like being " + characterAge + ".");
         System.out.println("Most of his friends were also " + characterAge + ", and one");
         System.out.println("of them was also named " + characterName + ".");
 
